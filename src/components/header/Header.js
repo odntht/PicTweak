@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderWrapper = styled.header`
   text-align: center;
+  margin: 7px;
 `;
 
 function Header() {
