@@ -2,9 +2,9 @@ import './Header.css';
 
 function Header() {
   return (
-    <div>
+    <header>
       <h1>PicTweak</h1>
-    </div>
+    </header>
   );
 }
 
