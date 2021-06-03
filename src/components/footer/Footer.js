@@ -1,12 +1,14 @@
-import './Header.css';
+import './Footer.css';
 
 // Add link para meu LinkedIn
-function Header() {
+function Footer() {
   return (
-    <div>
-      <h1>By Fernando Cavalcante</h1>
-    </div>
+    <footer>
+      <a href="https://www.linkedin.com/in/odntht/?locale=en_US">
+        By Fernando Cavalcante
+      </a>
+    </footer>
   );
 }
 
-export default Header;
+export default Footer;
