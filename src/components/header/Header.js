@@ -1,10 +1,14 @@
-import './Header.css';
+import styled from 'styled-components';
+
+export const HeaderWrapper = styled.header`
+  text-align: center;
+`;
 
 function Header() {
   return (
-    <header>
+    <HeaderWrapper>
       <h1>PicTweak</h1>
-    </header>
+    </HeaderWrapper>
   );
 }
 
